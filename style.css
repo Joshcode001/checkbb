@@ -1,0 +1,81 @@
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+    margin-top: 40px;
+  }
+  
+   li a {
+    display: block;
+    color: rgba(0, 87, 128, 0.767);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+ li a:hover {
+    color:chocolate;
+    font-size: 19px;
+  }
+  .navbar {
+    width: 100%;
+    height: 200px;
+  }
+  .header {
+    font-family: Holtwood One SC;
+    width:100%;
+    height:300px;
+    background-image: linear-gradient(white, rgba(128, 128, 0, 0.964));
+  }
+h1,h2,h4 {
+    color: teal;
+}
+h1 {
+    font-size: 70px;
+}
+.imgg {
+    background-image: linear-gradient(white, rgba(128, 128, 0, 0.964));
+    text-align: center;
+    font-family: Wellfleet;
+    font-size: 30px;
+}
+* {
+    padding: 0;
+    margin:0;
+}
+.column {
+    float: left;
+    width: 31.2%;
+    padding:15px;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contner {
+    background-color: olive;
+    width: 100%;
+    height: 400px;
+}
+h4 {
+    font-weight: bolder;
+}
+.imggg {
+    background-color: rgba(128, 128, 0, 0.964);
+    text-align: center;
+    font-family: Wellfleet;
+    font-size: 30px;
+}
+.contner2 {
+    background-color: olive;
+    width: 100%;
+    height: 400px;
+}
